@@ -1,0 +1,22 @@
+.projects{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    width: 40vh;
+    height: auto;
+    border: 2px;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.empty{
+    height: 50vh;
+}

@@ -1,0 +1,127 @@
+
+.clr{
+    clear: both;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(233, 222, 222, 0), rgb(255, 137, 196));
+    font-family: sans-serif;
+    margin: 0;
+}
+.container{
+    margin: 0;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main-header{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(42, 3, 46);
+    border-radius: 5px;
+    border-bottom: 3px dotted violet;
+}
+.main-header-div{
+    display: inline-block;
+}
+.main-header-div a{
+    padding: 10px;
+}
+.main-header{
+    display: inline-block;
+}
+
+.nav-bar{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+
+}
+.nav-bar-ul{
+    display: inline-block;
+    margin: 0 16px;
+}
+.nav-bar-li{
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    list-style: none;
+}
+.nav-bar-li a{
+    border: 2px solid green;
+    border-radius: 6px; 
+    padding: 8px;
+}
+.nav-bar-li a:hover{
+    border-bottom: 5px solid gray;
+    border-radius: 10px; 
+    color: yellow;
+}
+
+.info-section{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    padding-left: 200px;
+    background: url("../img/info-bg.png");
+    height: 350px;
+    box-shadow: 0 10px 10px 0 violet;
+}
+.img{
+    width: 40%;
+    margin: 5px;
+}
+.detailes-info{
+    width: 60%;
+    padding-left: 20px;
+}
+.img-style{
+    border-radius: 300px 10px 300px 300px;
+    align-items: center;
+}
+.detailes-info{
+    color: white;
+}
+.img-style:hover{
+ border-radius: 50%;
+}
+.career-section{
+    text-align: center;
+    background: url("../img/career-bg.jpg");
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 10px 10px 0 violet;
+}
+.career-section h1{
+    color: cyan;
+}
+.career-section p{
+    color: white;
+    font-size: 20px;
+}
+.quote-section{
+    background: black;
+    color: white;
+    text-align: center;
+    align-items: center
+}
+.quote-img{
+    border-radius: 100px;
+}
+.quote{
+    font-size: 2em;
+}
+footer{
+    background: gray;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
